@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties": {
+        "docId": {
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+        },
+        "dictionaryId": {
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+        },
+        "matchingOnly": {
+            "required": true,
+            "type": "boolean"
+        }
+    }
+}

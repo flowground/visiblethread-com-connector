@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "scanId": {
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+        },
+        "urlId": {
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+        }
+    }
+}

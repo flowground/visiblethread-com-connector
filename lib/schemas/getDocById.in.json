@@ -1,0 +1,10 @@
+{
+    "type": "object",
+    "properties": {
+        "docId": {
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+        }
+    }
+}

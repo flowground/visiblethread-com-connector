@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "type": "object",
+            "properties": {
+                "longSentenceWordCount": {
+                    "description": "Optional setting what constitutes a long sentence (default 25)",
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "veryLongSentenceWordCount": {
+                    "description": "Optional setting what constitutes a very long sentence (default 30)",
+                    "type": "integer",
+                    "format": "int32"
+                }
+            }
+        }
+    }
+}

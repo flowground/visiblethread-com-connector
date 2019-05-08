@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "dictId": {
+                    "example": 47364,
+                    "format": "int64",
+                    "type": "integer"
+                },
+                "docId": {
+                    "example": 56487,
+                    "format": "int64",
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "docId",
+                "dictId"
+            ],
+            "type": "object"
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "scanSettings": {
+                    "properties": {
+                        "longSentenceWordCount": {
+                            "example": 20,
+                            "format": "int32",
+                            "type": "integer"
+                        },
+                        "veryLongSentenceWordCount": {
+                            "example": 30,
+                            "format": "int32",
+                            "type": "integer"
+                        }
+                    },
+                    "type": "object"
+                },
+                "title": {
+                    "example": "My fancy scan title",
+                    "type": "string"
+                },
+                "webUrls": {
+                    "items": {
+                        "properties": {
+                            "url": {
+                                "example": "http://visiblethread.com",
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "url"
+                        ],
+                        "type": "object"
+                    },
+                    "type": "array"
+                }
+            },
+            "required": [
+                "title",
+                "webUrls"
+            ],
+            "type": "object"
+        }
+    }
+}
